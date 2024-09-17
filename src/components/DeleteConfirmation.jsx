@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import ProgressBar from "./Progress"
 
 const TIMER = 3000
 

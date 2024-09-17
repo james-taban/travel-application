@@ -1,4 +1,6 @@
-import { useState } from "react"
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
+import { useState, useEffect } from "react"
 
 export default function ProgressBar({ timer }) {
   const [remainingTime, setRemainingTime] = useState(timer)
